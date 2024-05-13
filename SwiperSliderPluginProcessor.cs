@@ -74,9 +74,9 @@ namespace Nop.Plugin.Widgets.SwiperSlider
             return await Task.FromResult(new List<string> { PublicWidgetZones.HomepageTop, PublicWidgetZones.ProductDetailsTop });
         }
 
-        public string GetWidgetViewComponentName(string widgetZone)
+        public string GetWidgetViewComponent(string widgetZone)
         {
-            return "SwiperSlider";
+            return typeof(SwiperSliderViewComponent);
         }
 
         public Task ManageSiteMapAsync(SiteMapNode rootNode)
