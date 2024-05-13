@@ -3,7 +3,7 @@
   "FriendlyName": "Swiper Slider",
   "SystemName": "Nop.Plugin.Widgets.SwiperSlider",
   "Version": "4.50.1",
-  "SupportedVersions": [ "4.50" ],
+  "SupportedVersions": [ "4.70" ],
   "Author": "code is life team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Widgets.SwiperSlider.dll",
